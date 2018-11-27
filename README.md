@@ -1,21 +1,28 @@
-# team3_mockup
+## MobileMed
 
-> mockup for team3 midterm project
+Team Members: Akshay Shankara, Holden Halferty, Thommas Lewis, Lavanya Chelle, Kenneth Tran
 
-## Build Setup
 
-``` bash
-# install dependencies
-npm install
+### Problem Domain
 
-# serve with hot reload at localhost:8080
-npm run dev
+The purpose of the project is to update the prescription, doctor’s report, pharmacy’s updated inventory and the patient information in the MobileMed application in order to streamline the patient check-up process. 
 
-# build for production with minification
-npm run build
+The model focuses on helping a patient treated by the doctor obtain medicine prescribed by the doctor through the pharmacy. It is assumed that the drug is available at the pharmacy, the doctor is qualified enough to create a prescription and a pharmacy will always be on hand.
 
-# build for production and view the bundle analyzer report
-npm run build --report
-```
+MobileMed requires a site that:
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+Allows the user submit their profile and medications history
+Alerts user to schedule to see doctor
+Allows user to see list of current medications and old medications
+Allows doctor to edit current medications and send note to pharmacist
+Allows user to add/remove medications
+
+### Solution As developers is a patient who suspects that they are ill, and possesses the technological expertise to operate a software application and is capable of using MobileMed. 
+
+
+The site will include the following pages:
+
+Home/Login
+Patient
+Doctor/Dashboard
+Pharmacist/Dashboard
