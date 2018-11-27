@@ -9,29 +9,29 @@
             <b-input placeholder="Doe" v-model="input.last"></b-input>
         </b-field>
 
-        <b-field label="Email">
-            <b-input type="email"
-                placeholder="john.doe@needhalp.com"
-                maxlength="30"
-                v-model="input.email">
-            </b-input>
-        </b-field>
-
-        <b-field>
-            <b-input placeholder="Search..."
-                type="search"
-                icon="magnify">
-            </b-input>
-            <p class="control">
-                <button class="button is-primary">Search</button>
-            </p>
-        </b-field>
-
         <b-field label="Doctor" v-model="input.doctor">
-            <b-select placeholder="Select a doctor" >
+            <b-select placeholder="Select a doctor" icon-pack="fas" icon="capsules">
                 <option value="Doctor 1">Doc 1</option>
                 <option value="Doctor 2">Doc 2</option>
             </b-select>
+        </b-field>
+
+        <b-field label="Pharmacist" v-model="input.pharm">
+            <b-select placeholder="Prefer Pharmacy" icon-pack="fa" icon="prescription-bottle">
+                <option value="Pharm 1">Pharm 1</option>
+                <option value="Pharm 2">Pharm 2</option>
+            </b-select>
+        </b-field>
+
+        <b-field label="Medical Symptoms">
+            <b-input maxlength="200" type="textarea"></b-input>
+        </b-field>
+
+        <b-field label="Select a date">
+        <b-datepicker
+            placeholder="Click to select..."
+            icon="calendar">
+        </b-datepicker>
         </b-field>
 
         <b-field>

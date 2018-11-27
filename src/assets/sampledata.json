@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "first_name": "Jesse",
+        "last_name": "Simmons",
+        "date": "2016/10/15 13:43:27",
+        "gender": "Male",
+        "medication": "420mg advil",
+        "report": "has been concerned about developing osteoporosis since many of his friends\nhave been diagnosed with osteoporosis. He is eight years postmenopausal, has never taken calcium supplements and his diet\nprovides his with negligible amount of elemental calcium."
+    },
+    {
+        "id": 2,
+        "first_name": "John",
+        "last_name": "Jacobs",
+        "date": "2016/12/15 06:00:53",
+        "gender": "Male",
+        "medication": "1000mg Giltuss",
+        "report": "calcium intake is significantly lower than what is suggested"
+    },
+    {
+        "id": 3,
+        "first_name": "Tina",
+        "last_name": "Gilbert",
+        "date": "2001/04/06 06:16:28",
+        "gender": "Female",
+        "medication": "meth, Iron sulfate 325mg",
+        "report": "She is a 65 years old Caucasian female of small build. She is not on any medications that can increase her risk of osteoporosis."
+    },
+    {
+        "id": 4,
+        "first_name": "Lisa",
+        "last_name": "Doe",
+        "date": "2016/04/26 01:22:28",
+        "gender": "Female",
+        "medication": "Aerokid 4-1.5 mg",
+        "report": "The patient reports 8/10 abdominal pain currently. She is on fentanyl 25mg/hr infusion which has been weaned down from 100mcg/hr since she was extubated this morning."
+    },
+    {
+        "id": 5,
+        "first_name": "Alan",
+        "last_name": "Fuller",
+        "date": "2013/01/26 06:26:28",
+        "gender": "Female",
+        "medication": "100mg advil and benaryl 50mg",
+        "report": "Her pain is greatest when she moves or is examined/repositioned. Her creatine clearance is ~40 mL/min. She is NPO per surgery. Her comfort goal is 5/10 and she wishes to be able to participate in therapy without the pain limiting her."
+    }
+]

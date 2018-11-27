@@ -3,6 +3,8 @@ import Router from 'vue-router'
 import Login from '@/components/Login'
 import Patient from '@/components/Patient'
 import Doctor from '@/components/Doctor'
+import Pharmacy from '@/components/Pharmacy'
+import Drug from '@/components/Drug'
 
 
 Vue.use(Router)
@@ -30,6 +32,11 @@ export default new Router({
       path: '/doctor',
       name: 'doctor',
       component: Doctor
-    }
+    },
+    {
+      path: '/pharmacist',
+      name: 'pharmacy',
+      component: Pharmacy
+    },
   ]
 })

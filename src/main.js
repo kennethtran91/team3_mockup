@@ -5,8 +5,11 @@ import App from './App'
 import router from './router'
 import Buefy from 'buefy'
 import 'buefy/dist/buefy.css'
+import 'material-design-icons-iconfont/dist/material-design-icons.css' // Ensure you are using css-loader
 
-Vue.use(Buefy)
+Vue.use(Buefy, {
+  defaultIconPack: 'fas',
+})
 
 Vue.config.productionTip = false
 

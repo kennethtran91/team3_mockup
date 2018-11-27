@@ -13,6 +13,9 @@
         <a class="navbar-item" href="/doctor">
           Doctors
       </a>
+        <a class="navbar-item" href="/pharmacist">
+          Pharmacist
+      </a>
     </div>
     
 
@@ -36,11 +39,14 @@
                 },
                 mockAccount2: {
                     username: "doctor",
+                },
+                mockAccount3: {
+                    username: "pharm"
                 }
             }
         },
         mounted() {
-            if(!this.authenticated) {
+            if(!this.authenticated ) {
                 this.$router.replace({ name: "login" });
             }
         },
@@ -70,5 +76,4 @@
         padding-top: 0px;
         margin-bottom: 10px;
     }
-
 </style>

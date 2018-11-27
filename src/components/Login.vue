@@ -30,6 +30,9 @@
                     } else if(this.input.username == this.$parent.mockAccount2.username) {
                         this.$emit("authenticated", true);
                         this.$router.replace({ name: "doctor" });
+                    } else if(this.input.username == this.$parent.mockAccount3.username) {
+                        this.$emit("authenticated", true);
+                        this.$router.replace({ name: "pharmacy" });
                     } else {
                         console.log("The username and / or password is incorrect");
                     }
